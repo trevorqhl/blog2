@@ -1,0 +1,26 @@
+I"<p><img src="/blogs/images/linux.jpeg" alt="Linux" /></p>
+
+<ol>
+  <li>
+    <p>Download the minimal iso from a <a href="http://mirror.csclub.uwaterloo.ca/centos/8.1.1911/isos/x86_64/">Centos Mirror</a></p>
+  </li>
+  <li>
+    <p>If using windows, download <a href="https://rufus.ie/">Rufus</a> and install it to Windows</p>
+  </li>
+  <li>
+    <p>Burn the iso into a USB drive</p>
+  </li>
+  <li>
+    <p>Boot your computer using the USB drive</p>
+  </li>
+  <li>From Installation Source
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select On the network and use 
+http://
+Enter URL 
+mirror.centos.org/centos/8/BaseOS/x86_64/os/
+</code></pre></div>    </div>
+  </li>
+  <li>The rest are customized to your preference and kick off installation</li>
+</ol>
+
+:ET
