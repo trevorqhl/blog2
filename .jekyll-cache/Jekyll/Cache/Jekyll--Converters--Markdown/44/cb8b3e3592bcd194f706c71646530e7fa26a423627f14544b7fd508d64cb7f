@@ -1,0 +1,20 @@
+I"a<p><img src="/blogs/images/jekyll.png" alt="Jekyll" /></p>
+
+<p>In this example, we demonstrate how to install a jekyll theme to start your website. With the consent of my children, we use the <a href="https://webjeda.com/cards/">Webjeda cards theme</a>, you can download it from <a href="https://github.com/sharu725/cards">Github</a>.</p>
+
+<h1 id="installation">Installation</h1>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Go to your home directory </span>
+<span class="n">cd</span>
+
+<span class="c1"># Download the project </span>
+<span class="n">git</span> <span class="nb">clone</span> <span class="n">git</span><span class="vi">@github</span><span class="p">.</span><span class="nf">com</span><span class="ss">:sharu725</span><span class="o">/</span><span class="n">cards</span><span class="p">.</span><span class="nf">git</span>
+
+<span class="c1"># cd into the jekyll theme and start the jekyll server</span>
+<span class="n">cd</span> <span class="n">cards</span>
+<span class="n">jekyll</span> <span class="n">server</span>
+
+<span class="c1"># If you see failure about missing paginate, you need to install it by root</span>
+<span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span><span class="o">-</span><span class="n">paginate</span></code></pre></figure>
+
+:ET

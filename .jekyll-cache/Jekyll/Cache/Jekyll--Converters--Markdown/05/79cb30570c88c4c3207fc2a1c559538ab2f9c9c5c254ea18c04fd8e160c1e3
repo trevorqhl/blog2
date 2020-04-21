@@ -1,0 +1,12 @@
+I"Š<p><img src="/blogs/images/jekyll.png" alt="Jekyll" /></p>
+
+<p>How to insert an image into your markdown file</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Create images folder if not there</span>
+<span class="c1"># Copy your image into the images folder</span>
+<span class="c1"># Locate to the place where you want to put your image from the markdown file</span>
+<span class="c1"># Insert the block and remove the backslash </span>
+
+<span class="o">!</span><span class="p">[](\{\{</span><span class="n">site</span><span class="p">.</span><span class="nf">baseurl</span><span class="p">\}\}</span><span class="o">/</span><span class="n">images</span><span class="o">/</span><span class="n">your</span><span class="o">-</span><span class="n">image</span><span class="p">.</span><span class="nf">png</span><span class="p">)</span></code></pre></figure>
+
+:ET
